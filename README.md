@@ -1,4 +1,4 @@
-# ghost-tag-updater
+# ghost-tag
 A Python script to list, update, and delete your Ghost blog's tags.
 
 # Install
@@ -13,17 +13,23 @@ Warning: Make a backup of your database first! You can do it like so:
 
 ```
 $ cp ghost-dev.db ghost-dev.db.bak
-
-    list [--db-path=<path>]
+```
+```
+list [--db-path=<path>]
+```
 
 Lists all the ghost tags in your database
 
-    update [--db-path=<path>] [--id=<tag-id>] [--name=<tag-name>] [--slug=<slug-name>]
+```
+update [--db-path=<path>] [--id=<tag-id>] [--name=<tag-name>] [--slug=<slug-name>]
+```
+
 
 Update the name or slug of a tag. Id is mandatory (you can find it by using the list command). You can define the name, slug, or both.
 
-    delete  [--db-path=<path>] [--id=<tag-id>]
-    
+```
+delete  [--db-path=<path>] [--id=<tag-id>]
+```
 Deletes the specific tag.
     
   
