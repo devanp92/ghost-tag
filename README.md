@@ -1,4 +1,4 @@
-# ghost-tag-updater
+# ghost-tag
 A Python script to list, update, and delete your Ghost blog's tags.
 
 # Install
