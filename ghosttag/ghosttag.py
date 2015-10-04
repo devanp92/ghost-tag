@@ -1,11 +1,11 @@
 """Tag editor for Ghost blogging platform
 
 Usage:
-    tags.py list [--db-path=<path>]
-    tags.py update [--db-path=<path>] [--id=<tag-id>] [--name=<tag-name>] [--slug=<slug-name>]
-    tags.py delete  [--db-path=<path>] [--id=<tag-id>]
-    tags.py (-h | --help)
-    tags.py --version
+    ghosttag.py list [--db-path=<path>]
+    ghosttag.py update [--db-path=<path>] [--id=<tag-id>] [--name=<tag-name>] [--slug=<slug-name>]
+    ghosttag.py delete  [--db-path=<path>] [--id=<tag-id>]
+    ghosttag.py (-h | --help)
+    ghosttag.py --version
 
 Options:
   -h --help                 Show this screen.
